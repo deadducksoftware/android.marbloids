@@ -1,4 +1,3 @@
-# Marbloids
 Marbloids is a simple falling marbles game in which you play against Android to score as many points as possible.
  
 When it's your turn press a column on the playing grid, a new marble will appear at the lowest available position in that column. Android will do the same and add one of its marbles. This is repeated until there are no more spaces on the board at which point the game will end.
