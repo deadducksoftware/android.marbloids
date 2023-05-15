@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background_gradient"
+    >
+    
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	        
+	    <TextView 
+	        android:id="@+id/scoreView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="30sp"
+		    android:textColor="#ffffffff"
+	        android:shadowColor="#ff000000"
+	        android:shadowDx="1"
+	        android:shadowDy="1"
+	        android:shadowRadius="1"  		    
+		    android:padding="5dp"
+	        />    
+	    
+	    <TextView 
+	        android:id="@+id/messageView"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textSize="20sp"
+	   	    android:textColor="#ffffffff"
+		    android:text="@string/gamePlayerTurn"
+	        android:shadowColor="#ff000000"
+	        android:shadowDx="1"
+	        android:shadowDy="1"
+	        android:shadowRadius="1" 		   	    
+		    android:padding="5dp"
+	        />
+    
+    </LinearLayout>
+    
+    <io.github.deadducksoftware.marbloids.GameView
+        android:id="@+id/gameView"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+    />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.deadducksoftware.marbloids"
+    android:versionCode="9"
+    android:versionName="1.8"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="28"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/applicationName"
+        android:theme="@style/AppTheme"
+        >
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/applicationName"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".GameActivity"
+            />
+        
+        <activity
+            android:name=".ScoresActivity"
+            />
+
+        <activity
+            android:name=".HelpActivity"
+            />
+            
+        <activity
+            android:name=".PrefsActivity"
+            />
+                    
+    </application>
+
+</manifest>

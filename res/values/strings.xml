@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="applicationName">Marbloids</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="newGame">New Game</string>
+    
+	<!-- Main -->
+    <string name="mainMenu">Main Menu</string>
+    <string name="mainTitle">MARBLOIDS</string>
+    <string name="mainResumeGame">RESUME GAME</string>
+    <string name="mainNewGame">NEW GAME</string>
+    <string name="mainScores">SCORES</string>
+    <string name="mainHelp">HELP</string>
+    <string name="mainNewGameTitle">New Game</string>
+    <string name="mainAbandonGameMessage">A game is already running. Starting a new game will delete the current game. Press Cancel and Resume Game to continue the current game or OK to start a new one.</string>
+    
+    <!-- Game -->
+    <string name="gamePlayerTurn">Your Move</string>
+    <string name="gameOverTitle">Game Over</string>
+    <string name="gameOverMessage">Start a new game or return to the menu?</string>
+    <string name="gameOverScoreMessage">A new high score! Enter your name and press enter to continue.</string>
+    <string name="gamePlayerName">Player</string>
+    <string name="gameSaveError">A storage error prevented the game from being saved.</string>
+    
+    <!-- Scores -->
+    <string name="scoresTitle">SCORES</string>
+    <string name="scoresNoData">No scores yet!</string>
+    
+    <!-- Help -->
+    <string name="helpTitle">HELP</string>
+    <string name="helpText">Marbloids is a simple falling marbles game in which you play against Android
+ to score as many points as possible.\n
+\nWhen it\'s your turn press a column on the playing grid, a new marble will appear
+ at the lowest available position in that column. Android will do the same
+ and add one of its marbles. This is repeated until there are no more spaces on the
+ board at which point the game will end.\n
+\nYou score points by adding your marbles to form groups of three (horizontally,
+ vertically or diagonally). When you create such a group the three marbles are
+ removed from the grid and you score 100 points. Any marbles above the removed
+ group will fall to occupy the newly vacant spaces. If these form new groups
+ they too will be removed and additional points scored (100 for every group removed).
+ This is repeated until all the possible groups have been removed. This \'cascade\'
+ effect can be used to clear away several marbles in a single move (and score lots of points!)\n
+\nYour task is to clear away as many marbles as possible to score points and create space on the grid
+ for more marbles to be added. Android\'s task is to stop you by adding marbles of its
+ own, preventing you from creating your groups.\n
+\nAndroid\'s marbles are added in exactly the same way but do not form groups of three.
+ Instead they are removed only when they form a complete line across the playing grid.
+ When Android marbles are removed, any groups of three formed by your marbles will
+ also be removed scoring further points for you.\n
+\nTo start playing Marbloids press New Game on the main menu. Games can be paused at
+ any time by returning to the menu. Press Resume Game to continue playing. Pressing
+ New Game when a game is in progress will cause that game to be abandoned and a new
+ game started (a warning will be given so you won\'t lose a game by accident).\n
+\nThe Scores page shows the top 20 high scorers. The default player name can be set
+ in the Settings page (press the Android menu button on the game menu screen). You
+ will be asked to enter a name at the end of a game if you have achieved a high score.
+ Accept the default name or type a new one if you are sharing the game with someone
+ and wish to distinguish their scores in the list.\n</string>
+ 
+    <string name="aboutTitle">Marbloids</string>
+    <string name="aboutVersion">Version %s</string>
+    <string name="aboutDetail">Copyright \u00A9 2017 Steve Walker.
+\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and
+ associated documentation files (the "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+ following conditions:
+\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial
+ portions of the Software.
+\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+ EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+ THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</string>    
+	
+    <string name="prefsTitle">Settings</string>
+    <string name="prefsPlayerNameTitle">Player Name</string>
+    <string name="prefsPlayerNameSummary">The default player name is %s</string>
+    <string name="prefsPlayerNameSummaryEmpty">The default player name is empty</string>
+    <string name="prefsPlayerColorTitle">Player Color</string>
+    <string name="prefsPlayerColorSummary">Player marbles will be this color</string>
+    <string name="prefsAndroidColorTitle">Android Color</string>
+    <string name="prefsAndroidColorSummary">Android marbles will be this color</string>
+    <string name="prefsCreatedColorTitle">Appearing Color</string>
+    <string name="prefsCreatedColorSummary">New Android marbles will be this color</string>
+    <string name="prefsDestroyedColorTitle">Disappearing Color</string>
+    <string name="prefsDestroyedColorSummary">Disappearing marbles will be this color</string>    
+
+</resources>

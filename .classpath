@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/steve/.local/android-sdk/platforms/android-28/android.jar" sourcepath="/home/steve/.local/android-sdk/platforms/android-28/android-stubs-src.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

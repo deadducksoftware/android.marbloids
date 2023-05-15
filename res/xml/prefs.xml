@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference 
+		android:key="prefsPlayerName"
+		android:title="@string/prefsPlayerNameTitle"
+		android:summary="@string/prefsPlayerNameSummary"
+		android:defaultValue="Player"
+        />
+    
+	<io.github.deadducksoftware.marbloids.ColorDialogPreference
+		android:key="prefsPlayerColor"
+		android:title="@string/prefsPlayerColorTitle"
+		android:summary="@string/prefsPlayerColorSummary"
+		/>    
+    
+	<io.github.deadducksoftware.marbloids.ColorDialogPreference
+		android:key="prefsAndroidColor"
+		android:title="@string/prefsAndroidColorTitle"
+		android:summary="@string/prefsAndroidColorSummary"
+		/>
+	
+	<io.github.deadducksoftware.marbloids.ColorDialogPreference
+		android:key="prefsCreatedColor"
+		android:title="@string/prefsCreatedColorTitle"
+		android:summary="@string/prefsCreatedColorSummary"
+		/>
+	
+	<io.github.deadducksoftware.marbloids.ColorDialogPreference
+		android:key="prefsDestroyedColor"
+		android:title="@string/prefsDestroyedColorTitle"
+		android:summary="@string/prefsDestroyedColorSummary"
+		/>
+	
+</PreferenceScreen>

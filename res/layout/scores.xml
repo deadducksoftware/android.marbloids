@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    >
+    
+    <TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="@string/scoresTitle"
+	    android:textColor="#ffffffff"
+	    android:textSize="18sp"
+        android:shadowColor="#ff000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1" 		    
+	    android:paddingTop="10dp"
+	    android:paddingBottom="20dp"
+	    />    
+    
+    <TextView
+        android:id="@+id/scoresMessage"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+	    android:textSize="20sp"
+	    android:textColor="#ffffffff"
+	    android:text="@string/scoresNoData"
+	    android:padding="10dp"
+    	/>
+    
+    <ListView 
+    	android:id="@+id/scoresList"
+        android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+	    android:listSelector="#00000000"
+    	/>
+
+</LinearLayout>
